@@ -1,46 +1,30 @@
-/*external css file*/
+/* external css*/
 
-
-/* 0 0 0*/
-* {
-	color: yellow;
+/* Tag selector */
+p 
+{
+	color: red;
+	font-size: 32px;
 }
 
-/*0 1 1*/
-.paragraph span {
-	color: inherit;
-	font-weight: 800;
+/* Tag selector */
+p {
+	color: brown;
+	text-transform: uppercase;
 }
 
-/* 1 0 0*/
-#last-paragraph {
-	color: indigo;
-}
-/*0 0 1*/
-h1 {
-	color: orange;
+/* id selector */
+#secondary-header {
+	text-transform: lowercase;
 }
 
-/*0 0 1*/
-h2 {
+/* class selector */
+.green-paragraph {
 	color: green;
 }
 
-
-/*0 1 0*/
-.paragraph {
-	color: tomato;
+/* id selector */
+#special-paragraph {
+	color: orange;
 }
-
-/*0 0 1*/
-p {
-	color: blue !important;
-	background-color: yellow;
-}
-/*0 0 1*/
-p {
-	color: gray;
-
-}
-
 
